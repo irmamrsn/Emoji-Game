@@ -1,0 +1,37 @@
+/* Place your CSS styles in this file */
+
+#emoji-game-container {
+  background-color: rgb(207, 207, 207);
+  width: 100%;
+  height: auto;
+ margin: 0 auto;   
+ padding-top: 100px;    
+ padding-bottom: 100px;     
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ 
+#game-card {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    padding: 24px;
+
+}
+
+#emoji-table {
+    background-color: royalblue;
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 0, 34);
+}
+
+#emoji-table tr td {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 0, 34);
+}
